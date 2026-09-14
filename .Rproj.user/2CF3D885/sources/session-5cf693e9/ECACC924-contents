@@ -1,0 +1,10 @@
+soma_pg <- function(n){
+  soma <- 0
+  termo <- 3
+  for(i in 1:n){
+    soma <- termo * (1/5)**(n-1)
+  }
+  return(soma)
+}
+
+soma_pg(3)
